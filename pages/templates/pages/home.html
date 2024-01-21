@@ -246,27 +246,72 @@
         </div>
     </section><!-- /.section-counters -->
 
-    <section id="contact" class="site-section section-form text-center">
-        <div class="container">
-
-            <h3>Contact</h3>
-            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
-            <form>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                    </div>
-                    <div class="col-sm-12">
-                        <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                    </div>
-                </div>
-                <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
-            </form>
-        </div>
-    </section><!-- /.section-form -->
+    <section id="contact" class="site-section section-info text-center">
+      <div class="container">
+  
+          <h3>Contact Information</h3>
+          <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+  
+          <div class="info-box">
+              <p class="contact-detail"><strong>Email:</strong> <a href="mailto:mps813@gmail.com">mps813@gmail.com</a></p>
+              <p class="contact-detail"><strong>Phone:</strong> +91 9999060011</p>
+              <p class="contact-detail"><strong>Profile Links:</strong></p>
+              <ul class="profile-links">
+                  <li><a href="https://github.com/mukhpal/" target="_blank">GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/mukhpal-singh/" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://www.upwork.com/freelancers/mukhpal" target="_blank">Upwork</a></li>
+              </ul>
+          </div>
+      </div>
+  </section><!-- /.section-info -->
+  
+  <style>
+      .section-info {
+          background-color: #f8f8f8;
+          padding: 50px 0;
+      }
+  
+      .info-box {
+          background-color: #fff;
+          border-radius: 10px;
+          padding: 20px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+      }
+  
+      .contact-detail {
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+  
+      .profile-links {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+  
+      .profile-links li {
+          display: inline-block;
+          margin-right: 15px;
+      }
+  
+      .profile-links a {
+          text-decoration: none;
+          color: #3498db;
+          font-weight: bold;
+          transition: color 0.3s ease-in-out;
+      }
+  
+      .profile-links a:hover {
+          color: #1abc9c;
+      }
+  
+      .img-lines {
+          width: 50px; /* Adjust the size as needed */
+          margin: 20px 0;
+      }
+  </style>
+  
 
 </main><!-- /#main -->
 
@@ -337,13 +382,13 @@
         <p>
             A real-time gaming platform. This engaging platform unites players from various time zones and countries, fostering connections through enjoyable interactions. With a variety of games tailored for individual and team participation, users can communicate via text, video, or audio during events or within their teams. Among the games featured are:
 
-Two unique variations of the "Fun Fact" game with a time quiz element.
-A team-based "Farming" game focused on profit and loss.
-"Crime Investigations" offering a range of game scenarios and storylines
+            Two unique variations of the "Fun Fact" game with a time quiz element.
+            A team-based "Farming" game focused on profit and loss.
+            "Crime Investigations" offering a range of game scenarios and storylines
         </p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="https://officecampfire.com" class="btn btn-fill">Go to Website</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -358,10 +403,13 @@ A team-based "Farming" game focused on profit and loss.
       </div>
       <div class="modal-body">
         <h4 class="modal-title">Esports / Bast.gg</h4>
-        <p>Our platform serves as a hub for fans to engage with their favorite celebrities across various social media platforms. Users can easily book a slot after confirming the date and time that works for them. Additionally, fans have access to a wealth of information, including a list of celebrities, their profiles, recent gaming activities, and availability details, making it simple for them to connect and enjoy interactive experiences with their idols.</p>
+        <p>
+          Technology Stack: Our platform is built using PHP, Laravel, MySQL, Stripe for payments, Notifications for alerts, WebSocket, Redis, Red5pro, JavaScript/jQuery, HTML, and CSS.
+          Our platform serves as a hub for fans to engage with their favorite celebrities across various social media platforms. Users can easily book a slot after confirming the date and time that works for them. Additionally, fans have access to a wealth of information, including a list of celebrities, their profiles, recent gaming activities, and availability details, making it simple for them to connect and enjoy interactive experiences with their idols.
+        </p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="http://www.bast.gg" class="btn btn-fill">Go to Website</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -375,11 +423,13 @@ A team-based "Farming" game focused on profit and loss.
         <img class="img-res" src="{% static 'img/fian.png' %}" alt="">
       </div>
       <div class="modal-body">
-        <h4 class="modal-title">Project title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        <h4 class="modal-title">Fian Group</h4>
+        <p>
+          A meticulously crafted, fully dynamic project has been realized through the proficient utilization of PHP/Laravel, with the entire design and end-to-end web development executed under my purview. The dynamic functionality of the pages is achieved through seamless integration with a PostgreSQL database, ensuring robust and efficient data management. Moreover, the project boasts a harmonious fusion of HTML and CSS, seamlessly integrated with Laravel Blades, elevating the user interface to deliver a polished and engaging web experience. This comprehensive approach underscores not only the technical proficiency but also the commitment to delivering a sophisticated and user-friendly web solution
+        </p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="https://www.fiangroup.com/" class="btn btn-fill">Go to Website</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -393,11 +443,27 @@ A team-based "Farming" game focused on profit and loss.
         <img class="img-res" src="{% static 'img/listfix.png' %}" alt="">
       </div>
       <div class="modal-body">
-        <h4 class="modal-title">Project title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        <h4 class="modal-title">ListFixx</h4>
+        <p>
+          The RecipeShare app is your gateway to a world of culinary delights. With this app, you have the freedom to create and share your own delicious recipes or simply explore an endless array of mouthwatering dishes shared by others. Here's what you can do:
+
+          1. **Create and Share**: Share your culinary creations with the world. Craft your own recipes and inspire fellow food enthusiasts.
+          
+          2. **Discover**: Explore a diverse collection of recipes from a global community. From appetizers to desserts, the possibilities are endless.
+          
+          3. **Connect**: Follow your favorite cooks, unfollow if you wish, and stay updated with their latest culinary masterpieces.
+          
+          4. **Customization**: Tailor your recipes to your liking. Add or modify ingredients, so you can enjoy the meal just the way you prefer.
+          
+          5. **Save for Later**: Love a recipe? Save it for future reference. Building your own digital cookbook has never been easier.
+          
+          6. **Many More Features**: The RecipeShare app is packed with features to make your dinner preparation a breeze. From easy-to-follow cooking instructions to handy tips and tricks, this app has it all.
+          
+          Whether you're a seasoned chef or just starting your culinary journey, RecipeShare is your go-to app for all things food. Enjoy cooking and exploring a world of flavors right at your fingertips
+        </p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="https://www.listfixx.com/" class="btn btn-fill">Go to Website</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -411,11 +477,25 @@ A team-based "Farming" game focused on profit and loss.
         <img class="img-res" src="{% static 'img/youphenom.png' %}" alt="">
       </div>
       <div class="modal-body">
-        <h4 class="modal-title">Project title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        <h4 class="modal-title">SelectLeague / Youphenom</h4>
+        <p>
+          The Leagues project is a comprehensive platform designed to efficiently manage and execute virtual monthly leagues encompassing a diverse array of teams. To ensure the integrity of the competition, stringent sign-up conditions are in place, utilizing IP address and device parameters to prevent the creation of multiple accounts from a single location.
+
+Empowering users with the ability to create one free team, the platform facilitates promotion to a wider audience. For those desiring additional teams, a straightforward payment mechanism, seamlessly integrated with payment gateways like PayPal, has been implemented.
+
+Team promotion is further amplified through a unique voting system. Users can solicit votes from other members, with each member entitled to one free vote daily. The option to purchase more votes through various plans enhances the promotional potential, allowing users to make a meaningful impact on their team's visibility.
+
+A daily cron job serves as the backbone of the project, diligently calculating results and updating the league scoreboards. This process spans 28 days, leading up to the final four days of the month. During this crucial period, final, semi-final, and quarter-final matches unfold based on the accumulated scores of teams throughout the month's matches, culminating in an exciting and competitive climax. The comprehensive integration of payment gateways, voting systems, and meticulous result calculations ensures a seamless and engaging experience for participants in this dynamic virtual league environment.
+
+A dedicated administrative panel serves as a centralized hub for efficiently overseeing and managing various facets of the website. This comprehensive tool is designed to handle not only the content of the platform but also to meticulously track and monitor key activities such as leagues, payments, and subscription plans.
+
+Within this specialized admin panel, administrators can seamlessly navigate through the website's content, ensuring its relevance and adherence to established standards. The tracking of leagues is streamlined, providing real-time insights into ongoing competitions, participant engagement, and overall league performance. Payments and subscription plans are diligently monitored, guaranteeing financial transactions are secure and align with the platform's offerings.
+
+The robust capabilities of the admin panel extend beyond mere oversight, offering administrators the tools needed to make informed decisions, swiftly address issues, and maintain the optimal functioning of the application. With a user-friendly interface and a suite of features tailored for efficient management, the admin panel is an indispensable resource for maintaining the integrity and success of the entire platform.
+        </p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="https://youphenom.com/" class="btn btn-fill">Visit Page</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -429,11 +509,15 @@ A team-based "Farming" game focused on profit and loss.
         <img class="img-res" src="{% static 'img/hustlink.png' %}" alt="">
       </div>
       <div class="modal-body">
-        <h4 class="modal-title">Project title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        <h4 class="modal-title">Hustle Ink</h4>
+        <p>This platform serves as a dynamic meeting ground for both talented tattoo artists and discerning customers seeking personalized tattoo experiences. Artists, upon registration, have the flexibility to curate and personalize their profiles with compelling portfolios and samples of their work. Additionally, they can establish transparent pricing structures, providing potential customers with clear insights into the costs associated with their services. The seamless integration of payment features facilitates secure transactions whenever a user books an appointment with their chosen artist.
+
+          For customers, the platform offers a user-friendly experience. They can register, explore an extensive array of designs and samples contributed by diverse artists, and delve into the history of each artist. Ratings and reviews further empower customers to make well-informed decisions when selecting an artist. This insightful feature allows users to gauge the quality of the artist's work and professionalism, ensuring a personalized and satisfying experience.
+          
+          Ensuring the smooth operation of this thriving ecosystem is a dedicated admin panel. This administrative hub provides the necessary tools to manage and monitor all activities and processes transpiring within the platform. From overseeing artist interactions to facilitating secure transactions and maintaining the overall integrity of the system, the admin panel plays a pivotal role in ensuring a seamless and enjoyable experience for both artists and customers alike.</p>
       </div>
       <div class="modal-footer">
-        <a href="#" class="btn btn-fill">Visit Page</a>
+        <a target="_blank" href="https://server2.chicmic.in/HustleInk_PHP" class="btn btn-fill">Visit Page</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
